@@ -6,15 +6,3 @@ body {
     justify-content: center;
     margin: 0;
 }
-
-.sound.applause.btn {
-    position: absolute;
-    top: 0;
-    left: 0px;
-    font-size: 24px;
-    background-color: white;
-    border: 0;
-    height: 100px;
-    width: 50px;
-
-}
