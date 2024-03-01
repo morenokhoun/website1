@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-.applause .btn {
+.sound.applause.btn {
     position: absolute;
     top: 0;
     left: 0px;
