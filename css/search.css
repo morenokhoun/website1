@@ -1,34 +1,36 @@
-+
+
 
 * {
     box-sizing: border-box;
 }
-
 body {
     background-color: steelblue;
     height: 100vh;
     display: flex;
     align-items: center;
-    jutisfy-content: center;
+    justify-content: center;
     margin: 0;
+
 }
 
-.search{
+.search {
     height: 50px;
     position: relative;
+
 }
 
-.search .btn{
+.search .btn {
     position: absolute;
     top: 0;
     left: 0px;
     font-size: 24px;
     background-color: white;
     border: 0;
-     height: 50px;
-     width: 50px;
-     cursor: pointer;
-     transition: transform 1s ease;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    transition: transform 1s ease;
+
 }
 
 .search .input {
@@ -46,7 +48,7 @@ body {
     outline: none;
 }
 
-.seach.active .input {
+.search.active .input {
     width: 200px;
 }
 
