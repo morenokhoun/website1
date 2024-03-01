@@ -1,5 +1,5 @@
 loadText = document.querySelector('.loading-text')
-bg = document.quertSelector('.bg')
+bg = document.querySelector('.bg')
 
 load = 0
 
@@ -9,7 +9,7 @@ int = setInterval(blurring, 30)
 function blurring() {
     load++
 
-    if (loadn > 99){
+    if (load > 99){
         clearInterval(int)
     }
     loadText.innerText = `${load}%`
